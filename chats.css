@@ -1,0 +1,124 @@
+html,body{
+height:100%;
+width:100%;
+padding:0px;
+margin:0px;
+}
+#solid_background_2{
+background-color:black;
+height:100%;
+width:100%;
+position:fixed;
+}
+
+#header{
+position:fixed;
+top:0px;
+left:0px; 
+height:10%;
+width:100%;
+background-color:blue;
+z-index:1;
+}
+.hamed_relative_container{
+    position:relative;
+    height:100%; 
+    width:100%;
+}
+#header .hamed_relative_container .icon_container .chevron-down{
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+#header .hamed_relative_container .icon_container{
+    position:absolute;
+    height:50%;
+    left:4%;
+    top:50%;
+    transform:translate(0%,-50%);
+    border-radius: 20px;
+    
+}
+#header .text{
+    position: absolute;
+    direction: rtl;
+    color: darkblue;
+    margin: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+    top: 50%;
+    background-color: white;
+    font-size: 69px;
+    transform: translate(0%,-50%);
+    right: 16%;
+    border-radius: 15px;
+    font-family:"b baran";
+    
+}
+#header .hamed_relative_container .login_icon .icon{
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+#header .hamed_relative_container .login_icon{
+    position:absolute;
+    height:50%;
+    right:4%;
+    top:50%;
+    transform:translate(0%,-50%);
+    border-radius: 14px;
+}
+#chats{
+display:none;
+}
+#chats .container{
+    position:absolute;
+    width:100%;
+    top:327px;
+    height:800px;
+}
+#chats .title{
+    position: absolute;
+    direction: rtl;
+    right: 5%;
+    top: 140px;
+    font-size: 78px;
+    border-radius: 14px;
+    color: white;
+    background-color: black;
+    padding: 4px;
+    padding-right: 25px;
+    padding-left: 25px;
+    
+}
+#chats .chat{
+    position:relative;
+    width:100%;
+    border-bottom:6px solid blue;
+    height:185px;
+    background-color:aqua;
+}
+#chats .chat .image{
+    height:140px;
+    width:140px;
+    background-color:green;
+    border-radius:100%;
+    position:absolute;
+    top:50%;
+    transform:translate(0%,-50%);
+    right:20px;
+}
+#chats .chat .name{
+    position: absolute;
+    top: 27px;
+    right: 204px;
+    font-size: 50px;
+    direction: rtl;
+}
+#chats .chat .message{
+    position: absolute;
+    top: 112px;
+    right: 204px;
+    font-size: 40px;
+    direction: rtl;
+}

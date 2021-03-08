@@ -1,0 +1,259 @@
+html,body{
+height:100%;
+width:100%;
+padding:0px;
+margin:0px;
+}
+#solid_background_2{
+background-color:black;
+height:100%;
+width:100%;
+position:fixed;
+}
+
+#header{
+position:fixed;
+top:0px;
+left:0px; 
+height:10%;
+width:100%;
+background-color:blue;
+z-index:1;
+}
+.hamed_relative_container{
+    position:relative;
+    height:100%; 
+    width:100%;
+}
+#header .hamed_relative_container .icon_container .chevron-down{
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+#header .hamed_relative_container .icon_container{
+    position:absolute;
+    height:45%;
+    left:4%;
+    top:50%;
+    transform:translate(0%,-50%);
+    border-radius: 20px;
+    
+}
+#header .text{
+    position: absolute;
+    direction: rtl;
+    color: darkblue;
+    margin: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+    top: 50%;
+    background-color: white;
+    font-size: 69px;
+    transform: translate(0%,-50%);
+    right: 16%;
+    border-radius: 15px;
+    font-family:"b baran";
+    
+}
+#header .hamed_relative_container .home_icon .icon{
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+#header .hamed_relative_container .home_icon{
+    position:absolute;
+    height:50%;
+    right:4%;
+    top:50%;
+    transform:translate(0%,-50%);
+    border-radius: 14px;
+}
+#user_account .settings_page .option{
+    position: relative;
+    width: 100%;
+    height: 245px;
+    border-top: 1px solid darkblue;
+}
+
+#user_account .settings_page .option .image{
+    height: 100px;
+    position: absolute;
+    top: 66px;
+    transform: translate(0%,-50%);
+    right: 48px;
+}
+#user_account .settings_page .option .name{
+    position: absolute;
+    top: 27px;
+    right: 204px;
+    background-color: green;
+    font-size: 50px;
+    direction: rtl;
+    color: white;
+    padding: 6px;
+    border-radius: 18px;
+}
+#user_account .settings_page .option .info{
+    position: absolute;
+    top: 119px;
+    right: 204px;
+    background-color: lightsalmon;
+    width: 541px;
+    font-size: 40px;
+    direction: rtl;
+    padding: 8px;
+    border-radius: 13px;
+}
+#user_account .settings_page .back_icon{
+    position: absolute;
+    height: 70px;
+    fill: white;
+    top: 15px;
+    left: 15px;
+}
+#user_account .title{
+position: absolute;
+direction: rtl;
+right: 5%;
+top: 140px;
+font-size: 78px;
+border-radius: 14px;
+color: white;
+background-color: black;
+padding: 4px;
+padding-right: 25px;
+padding-left: 25px;
+}
+
+#user_account .user_image{
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    border-radius: 100%;
+    position: absolute;
+    top: 13%;
+    right: 65px;
+}
+#user_account .username{
+    position: absolute;
+    right: 348px;
+    top: 198px;
+    font-size: 53px;
+    border-radius: 14px;
+    color: white;
+    background-color: blue;
+    padding: 4px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+#user_account .bio{
+    width: 435px;
+    background-color: lightgray;
+    position: absolute;
+    top: 335px;
+    direction: rtl;
+    right: 348px;
+    border-radius: 5px;
+    padding: 9px;
+    margin: 0px;
+}
+#user_account .account_level{
+    position: absolute;
+    right: 65px;
+    top: 567px;
+    font-size: 53px;
+    border-radius: 14px;
+    color: white;
+    padding: 4px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: 1px solid white;
+    
+}
+#user_account .edit_button{
+    position: absolute;
+    right: 310px;
+    top: 567px;
+    font-size: 53px;
+    border-radius: 14px;
+    color: darkblue;
+    padding: 4px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: 1px solid gray;
+}
+#user_account .gear_icon{
+    position: absolute;
+    top: 567px;
+    left: 231px;
+    height: 50px;
+    background-color: blue;
+    fill: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+#user_account .settings_page{
+        position: absolute;
+    top: 567px;
+    left:231px;
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    border-radius: 8px;
+    z-index: 2;
+    display:none;
+}
+#user_account .title{
+        position: absolute;
+    right: 65px;
+    top: 735px;
+    font-size: 63px;
+    border-radius: 14px;
+    color: white;
+    background-color: blue;
+    padding: 4px;
+    padding-right: 25px;
+    direction:rtl;
+    padding-left: 25px;
+}
+#user_account .title_2{
+    position: absolute;
+    right: 293px;
+    top: 748px;
+    font-size: 44px;
+    border-radius: 14px;
+    color: white;
+    padding: 1px;
+    direction: rtl;
+}
+#user_account .title_3{
+    position: absolute;
+    right: 65px;
+    top: 65px;
+    font-size: 63px;
+    border-radius: 14px;
+    color: darkblue;
+    background-color: white;
+    padding: 4px;
+    padding-right: 25px;
+    direction: rtl;
+    padding-left: 25px;
+}
+#user_account .buttons_container{
+    position:absolute;
+    width:100%;
+    height:90%;
+    top:15%;
+    
+}
+
+#user_account .container{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width: 80%;
+    min-height: 400px;
+    
+
+}

@@ -1,0 +1,140 @@
+html,body{
+height:100%;
+width:100%;
+padding:0px;
+margin:0px;
+}
+#solid_background_2{
+background-color:black;
+height:100%;
+width:100%;
+position:fixed;
+}
+
+#header{
+position:fixed;
+top:0px;
+left:0px; 
+height:10%;
+width:100%;
+background-color:blue;
+z-index:1;
+}
+.hamed_relative_container{
+    position:relative;
+    height:100%; 
+    width:100%;
+}
+#header .hamed_relative_container .icon_container .chevron-down{
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+#header .hamed_relative_container .icon_container{
+    position:absolute;
+    height:50%;
+    left:4%;
+    top:50%;
+    transform:translate(0%,-50%);
+    border-radius: 20px;
+    
+}
+#header .text{
+    position: absolute;
+    direction: rtl;
+    color: darkblue;
+    margin: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+    top: 50%;
+    background-color: white;
+    font-size: 69px;
+    transform: translate(0%,-50%);
+    right: 16%;
+    border-radius: 15px;
+    font-family:"b baran";
+    
+}
+#header .hamed_relative_container .login_icon .icon{
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+#header .hamed_relative_container .login_icon{
+    position:absolute;
+    height:50%;
+    right:4%;
+    top:50%;
+    transform:translate(0%,-50%);
+    border-radius: 14px;
+}
+#login_page{
+font-family:Arial;
+}
+#login_page .profile_image{
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    border-radius: 100%;
+    position: absolute;
+    top: 310px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+#login_page .password_input,#login_page .username_input{
+    position:absolute;
+    height:80px;
+    width:480px;
+    left:50%;
+    transform:translate(-50%,0%);
+    border:1px solid blue;
+    border-radius:10px;
+    padding:5px;
+    font-size:50px;
+    font-family:arial;
+    color:white;
+    background-color:gray;
+}
+#login_page .username_input{
+    top:650px;
+}
+#login_page .password_input{
+    top:830px;
+}
+#login_page .label_1{
+    position: absolute;
+    right: 250px;
+    direction: rtl;
+    top: 574px;
+    font-size: 40px;
+    color: white;}
+
+#login_page .label_2{
+    position: absolute;
+    right: 250px;
+    direction: rtl;
+    top: 750px;
+    color: white;
+    font-size: 40px;
+}
+#login_page .submit_icon{
+    /* by default it is hide : */
+    display:none;
+    fill:aqua;
+    position:absolute;
+    height:92px;
+    left:78%;
+    top:830px;
+    
+}
+#login_page .info{
+    direction: rtl;
+    position: absolute;
+    top: 973px;
+    right: 250px;
+    color: white;
+    width: 400px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 12px;
+}
